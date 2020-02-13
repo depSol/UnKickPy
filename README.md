@@ -29,7 +29,7 @@ if api.loggedIn:
 
 But what I will add later on, maybe in another repository is a bot which automatically
 buys and sells players based on how good they are and if it's likely that they will play at the next match day.
-But since I need an API to to the KICKBASE API I am currently working on this.
+But since I need an API to the KICKBASE API I am currently working on this.
 
 
 Some of the attributes of the following classes aren't used right now, but will be in future releases.
