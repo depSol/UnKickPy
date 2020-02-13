@@ -16,7 +16,15 @@ if api.loggedIn:
     # which you can access as follows:
     
     # access user information:
-    self.user
+    api.user
+    
+    # access league information
+    for league in api.user.leagues:
+        print(league.name)
+        
+        # access market information
+        for player in league.currentMarket:
+            print(f"{player.firstName} {player.lastName}")
 ```
 
 But what I will add later on, maybe in another repository is a bot which automatically
@@ -80,3 +88,4 @@ class Player:
 
     expiryInSeconds: int = None
 ```
+#### WRITTEN IN PYTHON 3.6
