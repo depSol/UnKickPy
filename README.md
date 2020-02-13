@@ -31,9 +31,6 @@ But what I will add later on, maybe in another repository is a bot which automat
 buys and sells players based on how good they are and if it's likely that they will play at the next match day.
 But since I need an API to to the KICKBASE API I am currently working on this.
 
-### Use this at your own risk!
-
-
 
 Some of the attributes of the following classes aren't used right now, but will be in future releases.
 
@@ -88,4 +85,7 @@ class Player:
 
     expiryInSeconds: int = None
 ```
+
+### Use at your own risk!
+
 #### WRITTEN IN PYTHON 3.6
