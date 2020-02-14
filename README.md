@@ -23,7 +23,7 @@ if api.loggedIn:
         print(league.name)
         
         # access market information
-        for player in league.currentMarket:
+        for player in league.market:
             print(f"{player.firstName} {player.lastName}")
 ```
 
@@ -62,7 +62,7 @@ class League:
     team: list = None
     teamLineUp: dict = None
 
-    currentMarket: list = None # list of 'Player' objects
+    market: list = None # list of 'Player' objects
 ```
 
 #### League class:
